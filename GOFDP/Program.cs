@@ -10,12 +10,85 @@ namespace GOFDP
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            string response = "";
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            do
+            {
+                Console.WriteLine("------------------------------------------------------------------");
+                Console.WriteLine("1. Creation Pattern");
+                Console.WriteLine("2. Structural Pattern");
+                Console.WriteLine("3. Behavioural Pattern");
+                Console.WriteLine("------------------------------------------------------------------");
+                Console.WriteLine("Please Enter your response :");
+                response = Console.ReadLine();
+                switch (response)
+                {
+                    case "1":
+                        Console.WriteLine("-------------------------------------------------------------");
+                        Console.WriteLine("1. Abstract Factory");
+                        Console.WriteLine("2. Builder");
+                        Console.WriteLine("3. Factory Method");
+                        Console.WriteLine("4. Prototype");
+                        Console.WriteLine("5. Singleton");
+                        Console.WriteLine("------------------------------------------------------------------");
+                        Console.WriteLine("Please Enter your response :");
+                        response = Console.ReadLine();
+                        switch (response)
+                        {
+                            case "1":
+                                break;
+                        }
+
+                        break;
+                    case "2":
+                        Console.WriteLine("-------------------------------------------------------------");
+                        Console.WriteLine("1. Adapter");
+                        Console.WriteLine("2. Bridge");
+                        Console.WriteLine("3. Composite");
+                        Console.WriteLine("4. Decorator");
+                        Console.WriteLine("5. Facade");
+                        Console.WriteLine("6. Flyweight");
+                        Console.WriteLine("7. Proxy");
+                        Console.WriteLine("------------------------------------------------------------------");
+                        Console.WriteLine("Please Enter your response :");
+                        response = Console.ReadLine();
+                        switch (response)
+                        {
+                            case "1":
+                                break;
+                        }
+                        break;
+                    case "3":
+                        Console.WriteLine("-------------------------------------------------------------");
+                        Console.WriteLine("1. Chain of Responsibility");
+                        Console.WriteLine("2. Command");
+                        Console.WriteLine("3. Interpreter");
+                        Console.WriteLine("4. Iterator");
+                        Console.WriteLine("5. Mediator");
+                        Console.WriteLine("6. Memento");
+                        Console.WriteLine("7. Observer");
+                        Console.WriteLine("8. State");
+                        Console.WriteLine("9. Strategy");
+                        Console.WriteLine("10. Template");
+                        Console.WriteLine("11. Visitor");
+                        Console.WriteLine("------------------------------------------------------------------");
+                        Console.WriteLine("Please Enter your response :");
+                        response = Console.ReadLine();
+                        switch (response)
+                        {
+                            case "1":
+                                break;
+                        }
+                        break;
+                }
+                Console.WriteLine("Do you want to Continue");
+                response = Console.ReadLine();
+            } while (response == "y");
+
+
+
+
+
         }
     }
 }

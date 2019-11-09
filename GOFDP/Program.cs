@@ -83,7 +83,8 @@ namespace GOFDP
                         response = Console.ReadLine();
                         switch (response)
                         {
-                            case "1":
+                            case "3":
+                                Console .WriteLine("Interpreter Pattern");
                                 break;
                         }
                         break;

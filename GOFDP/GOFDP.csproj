@@ -42,7 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreationalPaterns\Singleton\SingletonSample.cs" />
+    <Compile Include="BehavioralPatterns\InterpreterPattern\Add.cs" />
+    <Compile Include="BehavioralPatterns\InterpreterPattern\Divide.cs" />
+    <Compile Include="BehavioralPatterns\InterpreterPattern\Evaluator.cs" />
+    <Compile Include="BehavioralPatterns\InterpreterPattern\Multiply.cs" />
+    <Compile Include="BehavioralPatterns\InterpreterPattern\Number.cs" />
+    <Compile Include="BehavioralPatterns\InterpreterPattern\RPNExpression.cs" />
+    <Compile Include="BehavioralPatterns\InterpreterPattern\RunExample.cs" />
+    <Compile Include="BehavioralPatterns\InterpreterPattern\Subtract.cs" />
+    <Compile Include="CreationalPatterns\Singleton\SingletonSample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

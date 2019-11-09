@@ -1,13 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-/// <summary>
-/// The abstract RPN Expression Class
-/// </summary>
-public abstract class RPNExpression
+namespace GOFDP.BehavioralPatterns.InterpreterPattern
 {
     /// <summary>
-    /// Interpret the expressions
+    /// RPNExpression abstract class
     /// </summary>
-    /// <returns>value of the interpreter</returns>
-    public abstract int Interpret();
+    abstract class RPNExpression
+    {
+        /// <summary>
+        /// Abstract method to Interpret the expression
+        /// </summary>
+        /// <returns>value of the expression</returns>
+        public abstract int Interpret();
+    }
 }

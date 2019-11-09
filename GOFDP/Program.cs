@@ -1,3 +1,4 @@
+using GOFDP.BehavioralPatterns.InterpreterPattern;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -84,7 +85,8 @@ namespace GOFDP
                         switch (response)
                         {
                             case "3":
-                                Console .WriteLine("Interpreter Pattern");
+                                Console .WriteLine("Interpreter Pattern Example");
+                                new RunExample();
                                 break;
                         }
                         break;

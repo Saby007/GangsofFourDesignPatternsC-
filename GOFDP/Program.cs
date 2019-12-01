@@ -69,6 +69,11 @@ namespace GOFDP
                                 Console.WriteLine("Adapter Pattern...........................");
                                 StructuralPatterns.AdapterPattern.AdapterOrchastrator instance  = new StructuralPatterns.AdapterPattern.AdapterOrchastrator();
                                 break;
+                            case "2":
+                                Console.WriteLine("Bridge Pattern...............................");
+                                StructuralPatterns.BridgePattern.BridgeOrchastrator bridgeInstance = new StructuralPatterns.BridgePattern.BridgeOrchastrator();
+                                bridgeInstance.executor();
+                                break;
                         }
                         break;
                     case "3":

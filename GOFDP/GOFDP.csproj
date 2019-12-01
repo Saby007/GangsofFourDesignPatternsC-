@@ -65,6 +65,12 @@
     <Compile Include="StructuralPatterns\AdapterPattern\OldReportGenerator.cs" />
     <Compile Include="StructuralPatterns\AdapterPattern\ReportGenerator1.cs" />
     <Compile Include="StructuralPatterns\AdapterPattern\ReportGenerator2.cs" />
+    <Compile Include="StructuralPatterns\BridgePattern\BridgeOrchastrator.cs" />
+    <Compile Include="StructuralPatterns\BridgePattern\CompleteReport.cs" />
+    <Compile Include="StructuralPatterns\BridgePattern\IReportGenerator.cs" />
+    <Compile Include="StructuralPatterns\BridgePattern\ReportGenerator.cs" />
+    <Compile Include="StructuralPatterns\BridgePattern\ReportGenerator1.cs" />
+    <Compile Include="StructuralPatterns\BridgePattern\ReportGenerator2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

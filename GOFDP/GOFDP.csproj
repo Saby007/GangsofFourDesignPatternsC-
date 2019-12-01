@@ -57,6 +57,11 @@
     <Compile Include="CreationalPatterns\AbstractFactory\ProcessRule1.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\ProcessRule2.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\ReportExecutor.cs" />
+    <Compile Include="CreationalPatterns\BuilderPattern\BuilderOrchastrator.cs" />
+    <Compile Include="CreationalPatterns\BuilderPattern\Director.cs" />
+    <Compile Include="CreationalPatterns\BuilderPattern\FlatBuilder.cs" />
+    <Compile Include="CreationalPatterns\BuilderPattern\IBuilder.cs" />
+    <Compile Include="CreationalPatterns\BuilderPattern\ShipBuilder.cs" />
     <Compile Include="CreationalPatterns\Singleton\SingletonSample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +76,10 @@
     <Compile Include="StructuralPatterns\BridgePattern\ReportGenerator.cs" />
     <Compile Include="StructuralPatterns\BridgePattern\ReportGenerator1.cs" />
     <Compile Include="StructuralPatterns\BridgePattern\ReportGenerator2.cs" />
+    <Compile Include="StructuralPatterns\ProxyPattern\IOperation.cs" />
+    <Compile Include="StructuralPatterns\ProxyPattern\ProxyOperaration.cs" />
+    <Compile Include="StructuralPatterns\ProxyPattern\ProxyOrchastrator.cs" />
+    <Compile Include="StructuralPatterns\ProxyPattern\RealOperation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

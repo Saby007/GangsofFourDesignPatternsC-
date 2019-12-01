@@ -39,6 +39,10 @@ namespace GOFDP
                                 Console.WriteLine("Abstract Factory Pattern ..........");
                                 CreationalPatterns.AbstractFactory.Orchastrator instance = new CreationalPatterns.AbstractFactory.Orchastrator();
                                 break;
+                            case "2":
+                                Console.WriteLine("Builder Pattern...........");
+                                new CreationalPatterns.BuilderPattern.BuilderOrchastrator();
+                                break;
                             case "5":
                                 Console.WriteLine("Singleton Sample..........");
                                 CreationalPatterns.Singleton.SingletonSample instance1 = CreationalPatterns.Singleton.SingletonSample.Instacnce;
@@ -74,6 +78,10 @@ namespace GOFDP
                                 StructuralPatterns.BridgePattern.BridgeOrchastrator bridgeInstance = new StructuralPatterns.BridgePattern.BridgeOrchastrator();
                                 bridgeInstance.executor();
                                 break;
+                            case "7":
+                                Console.WriteLine("Proxy Pattern..................................");
+                                new StructuralPatterns.ProxyPattern.ProxyOrchastrator();
+                                break;                           
                         }
                         break;
                     case "3":

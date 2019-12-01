@@ -60,6 +60,11 @@
     <Compile Include="CreationalPatterns\Singleton\SingletonSample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuralPatterns\AdapterPattern\AdapterOrchastrator.cs" />
+    <Compile Include="StructuralPatterns\AdapterPattern\IReportGenerator.cs" />
+    <Compile Include="StructuralPatterns\AdapterPattern\OldReportGenerator.cs" />
+    <Compile Include="StructuralPatterns\AdapterPattern\ReportGenerator1.cs" />
+    <Compile Include="StructuralPatterns\AdapterPattern\ReportGenerator2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

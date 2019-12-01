@@ -66,6 +66,8 @@ namespace GOFDP
                         switch (response)
                         {
                             case "1":
+                                Console.WriteLine("Adapter Pattern...........................");
+                                StructuralPatterns.AdapterPattern.AdapterOrchastrator instance  = new StructuralPatterns.AdapterPattern.AdapterOrchastrator();
                                 break;
                         }
                         break;

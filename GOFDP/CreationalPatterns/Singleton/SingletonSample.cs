@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOFDP.CreationalPaterns.Singleton
+namespace GOFDP.CreationalPatterns.Singleton
 {
     class SingletonSample
     {

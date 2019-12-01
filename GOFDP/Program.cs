@@ -1,4 +1,3 @@
-using GOFDP.BehavioralPatterns.InterpreterPattern;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,12 +35,16 @@ namespace GOFDP
                         response = Console.ReadLine();
                         switch (response)
                         {
+                            case "1":
+                                Console.WriteLine("Abstract Factory Pattern ..........");
+                                CreationalPatterns.AbstractFactory.Orchastrator instance = new CreationalPatterns.AbstractFactory.Orchastrator();
+                                break;
                             case "5":
                                 Console.WriteLine("Singleton Sample..........");
-                                CreationalPaterns.Singleton.SingletonSample instance1 = CreationalPaterns.Singleton.SingletonSample.Instacnce;
+                                CreationalPatterns.Singleton.SingletonSample instance1 = CreationalPatterns.Singleton.SingletonSample.Instacnce;
                                 instance1.addCount();
                                 Console.WriteLine("Instance Count for instance1= " + instance1.Count);
-                                CreationalPaterns.Singleton.SingletonSample instance2 = CreationalPaterns.Singleton.SingletonSample.Instacnce;
+                                CreationalPatterns.Singleton.SingletonSample instance2 = CreationalPatterns.Singleton.SingletonSample.Instacnce;
                                 instance2.addCount();
                                 Console.WriteLine("Instance Count for instance1= " + instance1.Count + " & instance2 = "+instance2.Count);
                                 break;
@@ -86,7 +89,7 @@ namespace GOFDP
                         {
                             case "3":
                                 Console .WriteLine("Interpreter Pattern Example");
-                                new RunExample();
+                                new BehavioralPatterns.InterpreterPattern.RunExample();
                                 break;
                         }
                         break;

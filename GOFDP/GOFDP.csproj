@@ -50,12 +50,22 @@
     <Compile Include="BehavioralPatterns\InterpreterPattern\RPNExpression.cs" />
     <Compile Include="BehavioralPatterns\InterpreterPattern\RunExample.cs" />
     <Compile Include="BehavioralPatterns\InterpreterPattern\Subtract.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\GradingExecutor.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\IExecutor.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\IRules.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Orchastrator.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ProcessRule1.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ProcessRule2.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\ReportExecutor.cs" />
     <Compile Include="CreationalPatterns\Singleton\SingletonSample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BehavioralPatterns\IteratorPattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
